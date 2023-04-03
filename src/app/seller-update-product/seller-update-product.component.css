@@ -1,0 +1,21 @@
+.update-product{
+    text-align: center;
+    color: green;
+}
+h1{
+    color: rgb(5, 231, 5);
+}
+.submit-button{
+    background-color: blueviolet;
+    color: aliceblue;
+    width: 150px;
+    margin: auto;
+}
+.bg_img{
+    background-image: url(../../assets/tree-736885__480.jpg);
+    min-height: 600px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}

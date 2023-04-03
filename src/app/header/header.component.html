@@ -1,13 +1,21 @@
-<nav class="nav">
-<h1>E-COMM</h1>
-<div class="search">
+<nav class="nav sticky">
+ <h1><b routerLink="">STORE</b></h1>
+  <div *ngIf="menuType==='default'" class="search">
     <input type="text" placeholder="Search for product">
     <button>Search</button>
+  </div>
+<div [ngSwitch]="menuType">
+    <ul *ngSwitchCase="'default'">
+        <li><b class="menu-items" routerLink="seller-auth">Seller</b></li>
+        <li><b class="menu-items" routerLink="">Home</b></li>
+        <li><b class="menu-items" routerLink="">Login</b></li>
+        <li><b class="menu-items" routerLink="">Cart(0)</b></li>
+    </ul>
+    <ul *ngSwitchCase="'seller'">
+        <li><b class="menu-items" routerLink="seller-add-product">Add product</b></li>
+        <li><b class="menu-items" routerLink="seller-home">List</b></li>
+        <li><b class="menu-items" (click)="logout()">Logout</b></li>
+        <li><b class="menu-items" href="#">{{sellerName | titlecase}}</b></li>
+    </ul>
 </div>
-<ul>
-    <li><a routerLink="/seller-auth">Seller</a></li>
-    <li><a routerLink="/">Home</a></li>
-    <li><a routerLink="">Login</a></li>
-    <li><a routerLink="">Cart(0)</a></li>
-</ul>
 </nav>

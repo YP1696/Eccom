@@ -1,0 +1,38 @@
+table{
+    text-align: center;
+    color: rgb(245, 243, 246);
+    border-collapse: collapse;
+    width: auto;
+}
+table td{
+    border: 1px solid rgb(236, 232, 240);
+    padding: 10px;
+    min-width: 150px;
+}
+table th{
+    border: 2px solid rgb(245, 241, 248);
+    padding: 10px;
+    min-width: 150px;
+}
+img{
+    width: 50px;
+    height: 50px;
+}
+.icon{
+    margin: 10px;
+}
+h1{
+    text-align: center;
+    color: rgb(5, 231, 5);
+    text-shadow: 2px 2px 4px blue;
+}
+.bg_img{
+    background-image: url(../../assets/laptop-graphy-camera-thumbnail.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+.message{
+    color: blanchedalmond;
+}

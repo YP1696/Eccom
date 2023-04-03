@@ -1,246 +1,162 @@
 {
-  "UserList": [
-    [
-      {
-        "id": 1,
-        "name": "Leanne Graham",
-        "username": "Bret",
-        "email": "Sincere@april.biz",
-        "address": {
-          "street": "Kulas Light",
-          "suite": "Apt. 556",
-          "city": "Gwenborough",
-          "zipcode": "92998-3874",
-          "geo": {
-            "lat": "-37.3159",
-            "lng": "81.1496"
-          }
-        },
-        "phone": "1-770-736-8031 x56442",
-        "website": "hildegard.org",
-        "company": {
-          "name": "Romaguera-Crona",
-          "catchPhrase": "Multi-layered client-server neural-net",
-          "bs": "harness real-time e-markets"
-        }
-      },
-      {
-        "id": 2,
-        "name": "Ervin Howell",
-        "username": "Antonette",
-        "email": "Shanna@melissa.tv",
-        "address": {
-          "street": "Victor Plains",
-          "suite": "Suite 879",
-          "city": "Wisokyburgh",
-          "zipcode": "90566-7771",
-          "geo": {
-            "lat": "-43.9509",
-            "lng": "-34.4618"
-          }
-        },
-        "phone": "010-692-6593 x09125",
-        "website": "anastasia.net",
-        "company": {
-          "name": "Deckow-Crist",
-          "catchPhrase": "Proactive didactic contingency",
-          "bs": "synergize scalable supply-chains"
-        }
-      },
-      {
-        "id": 3,
-        "name": "Clementine Bauch",
-        "username": "Samantha",
-        "email": "Nathan@yesenia.net",
-        "address": {
-          "street": "Douglas Extension",
-          "suite": "Suite 847",
-          "city": "McKenziehaven",
-          "zipcode": "59590-4157",
-          "geo": {
-            "lat": "-68.6102",
-            "lng": "-47.0653"
-          }
-        },
-        "phone": "1-463-123-4447",
-        "website": "ramiro.info",
-        "company": {
-          "name": "Romaguera-Jacobson",
-          "catchPhrase": "Face to face bifurcated interface",
-          "bs": "e-enable strategic applications"
-        }
-      },
-      {
-        "id": 4,
-        "name": "Patricia Lebsack",
-        "username": "Karianne",
-        "email": "Julianne.OConner@kory.org",
-        "address": {
-          "street": "Hoeger Mall",
-          "suite": "Apt. 692",
-          "city": "South Elvis",
-          "zipcode": "53919-4257",
-          "geo": {
-            "lat": "29.4572",
-            "lng": "-164.2990"
-          }
-        },
-        "phone": "493-170-9623 x156",
-        "website": "kale.biz",
-        "company": {
-          "name": "Robel-Corkery",
-          "catchPhrase": "Multi-tiered zero tolerance productivity",
-          "bs": "transition cutting-edge web services"
-        }
-      },
-      {
-        "id": 5,
-        "name": "Chelsey Dietrich",
-        "username": "Kamren",
-        "email": "Lucio_Hettinger@annie.ca",
-        "address": {
-          "street": "Skiles Walks",
-          "suite": "Suite 351",
-          "city": "Roscoeview",
-          "zipcode": "33263",
-          "geo": {
-            "lat": "-31.8129",
-            "lng": "62.5342"
-          }
-        },
-        "phone": "(254)954-1289",
-        "website": "demarco.info",
-        "company": {
-          "name": "Keebler LLC",
-          "catchPhrase": "User-centric fault-tolerant solution",
-          "bs": "revolutionize end-to-end systems"
-        }
-      },
-      {
-        "id": 6,
-        "name": "Mrs. Dennis Schulist",
-        "username": "Leopoldo_Corkery",
-        "email": "Karley_Dach@jasper.info",
-        "address": {
-          "street": "Norberto Crossing",
-          "suite": "Apt. 950",
-          "city": "South Christy",
-          "zipcode": "23505-1337",
-          "geo": {
-            "lat": "-71.4197",
-            "lng": "71.7478"
-          }
-        },
-        "phone": "1-477-935-8478 x6430",
-        "website": "ola.org",
-        "company": {
-          "name": "Considine-Lockman",
-          "catchPhrase": "Synchronised bottom-line interface",
-          "bs": "e-enable innovative applications"
-        }
-      },
-      {
-        "id": 7,
-        "name": "Kurtis Weissnat",
-        "username": "Elwyn.Skiles",
-        "email": "Telly.Hoeger@billy.biz",
-        "address": {
-          "street": "Rex Trail",
-          "suite": "Suite 280",
-          "city": "Howemouth",
-          "zipcode": "58804-1099",
-          "geo": {
-            "lat": "24.8918",
-            "lng": "21.8984"
-          }
-        },
-        "phone": "210.067.6132",
-        "website": "elvis.io",
-        "company": {
-          "name": "Johns Group",
-          "catchPhrase": "Configurable multimedia task-force",
-          "bs": "generate enterprise e-tailers"
-        }
-      },
-      {
-        "id": 8,
-        "name": "Nicholas Runolfsdottir V",
-        "username": "Maxime_Nienow",
-        "email": "Sherwood@rosamond.me",
-        "address": {
-          "street": "Ellsworth Summit",
-          "suite": "Suite 729",
-          "city": "Aliyaview",
-          "zipcode": "45169",
-          "geo": {
-            "lat": "-14.3990",
-            "lng": "-120.7677"
-          }
-        },
-        "phone": "586.493.6943 x140",
-        "website": "jacynthe.com",
-        "company": {
-          "name": "Abernathy Group",
-          "catchPhrase": "Implemented secondary concept",
-          "bs": "e-enable extensible e-tailers"
-        }
-      },
-      {
-        "id": 9,
-        "name": "Glenna Reichert",
-        "username": "Delphine",
-        "email": "Chaim_McDermott@dana.io",
-        "address": {
-          "street": "Dayna Park",
-          "suite": "Suite 449",
-          "city": "Bartholomebury",
-          "zipcode": "76495-3109",
-          "geo": {
-            "lat": "24.6463",
-            "lng": "-168.8889"
-          }
-        },
-        "phone": "(775)976-6794 x41206",
-        "website": "conrad.com",
-        "company": {
-          "name": "Yost and Sons",
-          "catchPhrase": "Switchable contextually-based project",
-          "bs": "aggregate real-time technologies"
-        }
-      },
-      {
-        "id": 10,
-        "name": "Clementina DuBuque",
-        "username": "Moriah.Stanton",
-        "email": "Rey.Padberg@karina.biz",
-        "address": {
-          "street": "Kattie Turnpike",
-          "suite": "Suite 198",
-          "city": "Lebsackbury",
-          "zipcode": "31428-2261",
-          "geo": {
-            "lat": "-38.2386",
-            "lng": "57.2232"
-          }
-        },
-        "phone": "024-648-3804",
-        "website": "ambrose.net",
-        "company": {
-          "name": "Hoeger LLC",
-          "catchPhrase": "Centralized empowering task-force",
-          "bs": "target end-to-end models"
-        }
-      }
-    ]
-  ],
-  "comments": [
+  "seller": [
     {
-      "id": 1,
-      "body": "some comment",
-      "postId": 1
+      "name": "yogesh",
+      "password": "abc@123",
+      "email": "yp1696@gmail.com",
+      "id": 1
+    },
+    {
+      "name": "harshal",
+      "password": "abc@123",
+      "email": "hp@gmail.com",
+      "id": 2
+    },
+    {
+      "name": "Lasunya",
+      "password": "abc@123",
+      "email": "dl@gmail.com",
+      "id": 3
+    },
+    {
+      "name": "yogesh",
+      "password": "abc@123",
+      "email": "yogesh.patil@leftrightmind.com",
+      "id": 4
+    },
+    {
+      "name": "shashank",
+      "password": "abc@123",
+      "email": "sk@gmail.com",
+      "id": 5
     }
   ],
-  "profile": {
-    "name": "typicode"
-  }
+  "products": [
+    {
+      "name": "iphone 14",
+      "price": "100000",
+      "color": "red",
+      "category": "mobile",
+      "image": "https://www.reliancedigital.in/medias/Apple-iPhone-14-Plus-Mobile-Phone-493177766-i-1-1200Wx1200H?context=bWFzdGVyfGltYWdlc3w3NTE4NHxpbWFnZS9qcGVnfGltYWdlcy9oNGMvaDZkLzk4OTA1MzE5MzQyMzguanBnfDhlMWRhMTI2MTE4ZTVjMGRiMGIzYmQ5ZGNmNmJhYTEyZTU3OGMxOTMxZWYyMThlMjk4NDQ0MDVkMDAyNDNmZDg",
+      "description": "Camera: 12 MP + 12 MP Dual Rear & 12 MP Front Camera",
+      "id": 6
+    },
+    {
+      "name": "lenovo Yoga",
+      "price": "90,000",
+      "color": "Silver",
+      "category": "Laptop",
+      "image": "data:image/jpeg;base64,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",
+      "description": "Design: 1.56 cm Thin and 1.45 kg Light | Aluminium Material | Backlit Keyboard",
+      "id": 8
+    },
+    {
+      "name": "Galxy S23 Ultra",
+      "price": "100000",
+      "color": "Graphite",
+      "category": "mobile",
+      "image": "https://encrypted-tbn1.gstatic.com/shopping?q=tbn:ANd9GcTvYyb75rjb4UuUb76-tl35ee9qhwUbgxnOEp6-akDC0ppLmiu-vCC0pz3P1dXqV-HxT0coVq2cghrNbusrmTssKcSbhXih",
+      "description": "Enjoy epic gaming experience Game-on with 5000mAh battery",
+      "id": 9
+    },
+    {
+      "name": "",
+      "price": "",
+      "color": "",
+      "category": "",
+      "image": "",
+      "description": "",
+      "id": 10
+    },
+    {
+      "name": "",
+      "price": "",
+      "color": "",
+      "category": "",
+      "image": "",
+      "description": "",
+      "id": 11
+    },
+    {
+      "name": "",
+      "price": "",
+      "color": "",
+      "category": "",
+      "image": "",
+      "description": "",
+      "id": 12
+    },
+    {
+      "name": "",
+      "price": "",
+      "color": "",
+      "category": "",
+      "image": "",
+      "description": "",
+      "id": 13
+    },
+    {
+      "name": "",
+      "price": "",
+      "color": "",
+      "category": "",
+      "image": "",
+      "description": "",
+      "id": 14
+    },
+    {
+      "name": "",
+      "price": "",
+      "color": "",
+      "category": "",
+      "image": "",
+      "description": "",
+      "id": 15
+    },
+    {
+      "name": "",
+      "price": "",
+      "color": "",
+      "category": "",
+      "image": "",
+      "description": "",
+      "id": 16
+    },
+    {
+      "name": "",
+      "price": "",
+      "color": "",
+      "category": "",
+      "image": "",
+      "description": "",
+      "id": 17
+    },
+    {
+      "name": "",
+      "price": "",
+      "color": "",
+      "category": "",
+      "image": "",
+      "description": "",
+      "id": 18
+    },
+    {
+      "name": "",
+      "price": "",
+      "color": "",
+      "category": "",
+      "image": "",
+      "description": "",
+      "id": 19
+    },
+    {
+      "name": "",
+      "price": "",
+      "color": "",
+      "category": "",
+      "image": "",
+      "description": "",
+      "id": 20
+    }
+  ]
 }

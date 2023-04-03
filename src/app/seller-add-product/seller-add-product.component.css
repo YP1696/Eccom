@@ -1,0 +1,33 @@
+.common-form{
+    margin-top: 10px;
+}
+.add-product{
+    text-align: center;
+    color: rgb(245, 247, 245);
+    position: absolute;
+    right: 0;
+    margin: 20px;
+    max-width: 400px;
+    padding: 16px;
+    background-color: white;
+    background: rgb(0, 0, 0);
+    background: rgba(0, 0, 0, 0.5);
+}
+.submit-button{
+    background-color: blueviolet;
+    color: aliceblue;
+    width: 150px;
+    margin: auto;
+}
+.add-product-message{
+    text-align: center;
+    color: rgb(247, 251, 251);
+}
+.bg_img{
+    background-image: url(../../assets/tree-736885__480.jpg);
+    min-height: 600px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}

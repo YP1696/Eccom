@@ -6,3 +6,26 @@ body{
     margin-left: 5%;
     margin-right: 5%;
 }
+.common-form{
+    text-align: center;
+    width: 300px;
+    margin:auto;
+    display: grid;
+}
+.form-input{
+    height: 35px;
+    margin-bottom: 20px;
+    padding-left: 10px;
+    border: 1px solid blue;
+}
+.form-button{
+    height: 35px;
+    border: 1px solid blueviolet;
+    cursor: pointer;
+}
+b.menu-items:hover, b.menu-items:active{
+    color: red;
+    font-size: 150%;
+}
+
+
