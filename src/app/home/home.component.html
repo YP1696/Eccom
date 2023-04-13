@@ -54,8 +54,8 @@
     <span class="visually-hidden">Next</span>
   </button>
 </div> -->
-  <ngb-carousel *ngIf="popularProducts">
-    <ng-template *ngFor="let item of popularProducts" ngbSlide>
+  <!-- <div *ngIf="popularProducts">
+    <div *ngFor="let item of popularProducts">
       <div class="picsum-img-wrapper">
         <img class="product-image" [src]="item.image" alt="Random first slide" />
       </div>
@@ -63,25 +63,45 @@
         <h3>{{item.name}}</h3>
         <p>{{item.description}}</p>
       </div>
-    </ng-template>
-  </ngb-carousel>
+    </div>
+  </div> -->
 </div>
 <div>
-  <mat-card style="max-width: 200px; max-height: 200px;">
-    <div>
-      <div>
-        <div class="deals">
-          Today's Fashion Deal
-        </div>
-        <div fxLayoutAlign="center">
-          <button mat-button class="view_btn">View All</button>
+  <div class="card">
+    <div class="sub-card">
+      <div class="sub-card2">
+        <b>Today's fashion deals</b>
+      </div>
+      <div class="sub-card2">
+        <div>
+          <button mat-raised-button class="view_btn">view</button>
         </div>
       </div>
-      <div>
-        <img src="../../assets/laptop-graphy-camera-thumbnail.jpg" style="max-height: 250px;" alt="image">
+
+    </div>
+    <div class="sub-card">
+      <div><img src="../../assets/mobile33.png" alt=""></div>
+      <div class="product sub-card2">
+        Product name
       </div>
+      <p class="sub-card2">Price $</p>
+      <p class="sub-card2">category</p>
     </div>
-    <div>
+    <div class="sub-card">
+      <div><img src="../../assets/shoes33.png" alt=""></div>
+      <div class="product sub-card2">
+        Product name
+      </div>
+      <p class="sub-card2">Price $</p>
+      <p class="sub-card2">category</p>
     </div>
-  </mat-card>
+    <div class="sub-card">
+      <div><img src="../../assets/laptop33.png" alt=""></div>
+      <div class="product sub-card2">
+        Product name
+      </div>
+      <p class="sub-card2">Price $</p>
+      <p class="sub-card2">category</p>
+    </div>
+  </div>
 </div>

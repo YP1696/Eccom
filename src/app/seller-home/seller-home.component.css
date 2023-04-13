@@ -27,7 +27,7 @@ h1{
     text-shadow: 2px 2px 4px blue;
 }
 .bg_img{
-    background-image: url(../../assets/laptop-graphy-camera-thumbnail.jpg);
+    background-image: url(../../assets/list-background.jpg);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;

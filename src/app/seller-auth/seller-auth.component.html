@@ -1,12 +1,21 @@
-<div class="seller-auth">
+<div class="seller-auth bg-img">
     <div *ngIf="!showLogin" class="signup">
         <h1>Seller SignUp</h1>
-        <form #sellerSignUp="ngForm" (ngSubmit)="signUp(sellerSignUp.value)" class="common-form" action="">
-            <input class="form-input" type="text" ngModel name="name" placeholder="Enter Name">
-            <input class="form-input" type="password" ngModel name="password" placeholder="Enter Password">
-            <input class="form-input" type="text" ngModel name="email" placeholder="Enter Email">
-            <button class="form-button">SignUp</button>
-            <a class="auth-toggle-link" (click)="openLogin()">Already Have Account? click to Login</a>
+        <form #sellerSignUp="ngForm" [formGroup]="signUpForm" (ngSubmit)="signUp(sellerSignUp.value)"
+            class="common-form" action="">
+            <input class="form-input" type="text" ngModel formControlName="name" placeholder="Enter Name" required
+                minlength="4">
+            <div class="hint" *ngIf="signUpForm.controls['name'].invalid && signUpForm.controls['name'].dirty || signUpForm.controls['name'].touched">name is invalid</div>
+            <input class="form-input" type="password" ngModel formControlName="password" placeholder="Enter Password"
+                required>
+                <div class="hint" *ngIf="signUpForm.controls['password'].invalid && signUpForm.controls['password'].dirty || signUpForm.controls['password'].touched">password is invalid</div>
+
+            <input class="form-input" type="email" ngModel formControlName="email" placeholder="Enter Email" required>
+            <div class="hint" *ngIf="signUpForm.controls['email'].invalid && signUpForm.controls['email'].dirty || signUpForm.controls['email'].touched">email is invalid</div>
+
+            <div><button class="form-button" [disabled]="!signUpForm.valid">SignUp</button></div>
+            <a class="auth-toggle-link" style="color: white;" (click)="openLogin()">Already Have Account? click to
+                Login</a>
         </form>
     </div>
 
@@ -16,8 +25,9 @@
         <form #sellerLogin="ngForm" (ngSubmit)="logIn(sellerLogin.value)" class="common-form" action="">
             <input class="form-input" type="text" ngModel name="email" placeholder="Enter Email">
             <input class="form-input" type="password" ngModel name="password" placeholder="Enter Password">
-            <button class="form-button">Login</button>
-            <a class="auth-toggle-link" (click)="openSignUp()">Do not Have Account? click to SignUp</a>
+            <div><button class="form-button">Login</button></div>
+            <a class="auth-toggle-link" style="color: white;" (click)="openSignUp()">Do not Have Account? click to
+                SignUp</a>
         </form>
     </div>
 </div>

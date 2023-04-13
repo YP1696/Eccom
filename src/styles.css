@@ -13,15 +13,17 @@ body{
     display: grid;
 }
 .form-input{
-    height: 35px;
-    margin-bottom: 20px;
+    height: 40px;
+    margin-bottom: 10px;
     padding-left: 10px;
     border: 1px solid blue;
+
 }
 .form-button{
     height: 35px;
-    border: 1px solid blueviolet;
+    border: 1px solid rgb(246, 243, 243);
     cursor: pointer;
+    width: 40%;
 }
 b.menu-items:hover, b.menu-items:active{
     color: red;
